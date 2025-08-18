@@ -13,7 +13,6 @@ steps:
 uses: actions/checkout@v4
 with:
 fetch-depth: 0 # 保留完整提交历史
-
   - name: Set up Git
     run: |
       git config user.name "github-actions[bot]"
